@@ -34,7 +34,7 @@
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QLineEdit" name="lineEdit"/>
+         <widget class="QLineEdit" name="shaft_H_line_edit"/>
         </item>
         <item>
          <widget class="QFrame" name="frame_2">
@@ -58,14 +58,14 @@
             <number>0</number>
            </property>
            <item>
-            <widget class="QPushButton" name="pushButton">
+            <widget class="QPushButton" name="shaft_clear_button">
              <property name="text">
               <string>Очистить</string>
              </property>
             </widget>
            </item>
            <item>
-            <widget class="QPushButton" name="pushButton_2">
+            <widget class="QPushButton" name="shaft_calc_button">
              <property name="text">
               <string>Рассчитать</string>
              </property>
@@ -96,7 +96,7 @@
             <number>0</number>
            </property>
            <item>
-            <widget class="QTableWidget" name="tableWidget">
+            <widget class="QTableWidget" name="shaft_table_source">
              <attribute name="horizontalHeaderVisible">
               <bool>false</bool>
              </attribute>
@@ -122,7 +122,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QTableWidget" name="tableWidget_2">
+            <widget class="QTableWidget" name="shaft_table_result">
              <attribute name="horizontalHeaderVisible">
               <bool>false</bool>
              </attribute>
@@ -154,7 +154,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_3">
+         <widget class="QPushButton" name="shaft_history_button">
           <property name="text">
            <string>История</string>
           </property>
